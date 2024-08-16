@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 
 const app = express();
-const port = 4000;
+const port = 80;
 const ApiKey = "9e71e2a9a71345babd68a53e27637a16"; 
 
 app.use(express.static("public"));
